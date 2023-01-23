@@ -97,7 +97,11 @@ nav a {
 }
 
 #logo {
+  box-sizing: content-box;
   width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #github--logo {
