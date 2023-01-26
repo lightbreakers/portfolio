@@ -1,0 +1,63 @@
+---
+
+import ArticlePreview from '../components/ArticlePreview.astro';
+import Layout from '../layouts/Layout.astro';
+
+// 125666b4-53f2-42d2-9ca6-de0d5ad1d844
+// @harshparashar
+const GET_USER_ARTICLES = `
+    query GetUserArticles($page: Int!) {
+        user(username: "harshparashar") {
+            publication {
+                posts(page: $page) {
+                    title
+                    brief
+                    slug
+                }
+            }
+        }
+    }
+`;
+async function gql(query, variables = {}) {
+  const data = await fetch('https://api.hashnode.com/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      query,
+      variables,
+    }),
+  });
+
+  return data.json();
+}
+
+let articles= await gql(GET_USER_ARTICLES, { page: 0 }).then((result) => {
+  const articles = result.data.user.publication.posts;
+  return articles
+});
+
+
+// export interface Props {
+// 	username: string;
+// }
+
+// const {  username } = Astro.props;
+---
+
+<Layout title="Harsh Parashar">
+	
+	<section class="section--page">
+		<a id="blog"></a>
+		<h3>Latest Posts</h3>
+
+		{articles.map(post => (
+			<ArticlePreview details={post}/>
+		))}
+
+	</section>
+
+</Layout>
+
+
