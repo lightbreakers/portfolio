@@ -1,0 +1,24 @@
+---
+const {details} = Astro.props;
+// import { ArrowRight } from 'react-feather';
+// console.log("details",details)
+---
+
+<a href={`https://harshparashar.hashnode.dev/${details.slug}`} target="_blank">
+    
+    <div class='card--article-preview'>
+        <div class="article-preview__body">
+           <h3 style="line-height: 0;">📝</h3>
+            <div>
+              <strong>{details.title}</strong>
+              <br/>
+              <!-- <small>{details.read_time} min read</small> -->
+              <!-- <small>{details.tags.map(tag => (
+                <span>{tag} {details.tags[details.tags.length-1] != tag && ','} </span>
+              ))}</small> -->
+            </div>
+        </div>
+
+        <!-- <ArrowRight size={18}/> -->
+    </div>
+  </a>
