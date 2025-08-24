@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/games/ravensky:match(.*)",
+            "destination": "https://raven-sky-website.vercel.app:match"
+        },
+        {
+            "source": "/bio/:match(.*)",
+            "destination": "https://deveshrx-website-bio.vercel.app/:match"
+        },
+        {
+            "source": "/blog:match(.*)",
+            "destination": "https://deveshrx-blog.vercel.app:match"
+        },
+        {
+            "source": "/apps/sms-drive:match(.*)",
+            "destination": "https://sms-drive-website.vercel.app:match(.*)"
+        }
+    ]
+}
