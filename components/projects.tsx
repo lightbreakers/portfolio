@@ -7,7 +7,7 @@ const projects = [
     title: "ArchFlow",
     description:
       "A visual system design tool that helps architects create, validate, and optimize distributed system architectures.",
-    image: "/portfolio/system-architecture-diagram-tool-interface.png",
+    image: "/system-architecture-diagram-tool-interface.png",
     tags: ["React", "Node.js", "D3.js", "PostgreSQL"],
     github: "#",
     demo: "#",
@@ -17,7 +17,7 @@ const projects = [
     title: "MicroService Orchestrator",
     description:
       "A lightweight orchestration platform for managing microservice deployments and inter-service communication.",
-    image: "/portfolio/microservices-dashboard-with-containers.png",
+    image: "/microservices-dashboard-with-containers.png",
     tags: ["Go", "Docker", "Kubernetes", "gRPC"],
     github: "#",
     demo: "#",
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "DevOps Pipeline Builder",
     description: "Visual CI/CD pipeline builder that generates infrastructure as code for multiple cloud providers.",
-    image: "/portfolio/devops-pipeline-visualization-tool.png",
+    image: "/devops-pipeline-visualization-tool.png",
     tags: ["TypeScript", "AWS CDK", "Terraform", "GitHub Actions"],
     github: "#",
     demo: "#",

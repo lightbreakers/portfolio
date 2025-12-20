@@ -4,11 +4,11 @@ import { ExternalLink, Github } from "lucide-react"
 export function Apps() {
   const apps = [
     {
-      title: "DevTools Pro",
-      description: "A comprehensive development toolkit for modern web applications with AI-powered code analysis.",
+      title: "Biztool for Small Businesses",
+      description: "Generate professional quotations, manage customers, and grow your business with our comprehensive suite of tools.",
       type: "Web App",
       tech: ["React", "Node.js", "AI/ML"],
-      link: "#",
+      link: "https://www.harshparashar.cloud/biztool",
       github: "#",
     },
     {
