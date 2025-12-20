@@ -7,26 +7,26 @@ export function Apps() {
       title: "Biztool for Small Businesses",
       description: "Generate professional quotations, manage customers, and grow your business with our comprehensive suite of tools.",
       type: "Web App",
-      tech: ["React", "Node.js", "AI/ML"],
+      tech: ["Next.js", "Supabase", "AI/ML"],
       link: "https://www.harshparashar.cloud/biztool",
       github: "#",
     },
-    {
-      title: "Architecture Planner",
-      description: "Visual system design tool for software architects to plan and document complex systems.",
-      type: "Desktop App",
-      tech: ["Electron", "TypeScript", "D3.js"],
-      link: "#",
-      github: "#",
-    },
-    {
-      title: "API Gateway Manager",
-      description: "Centralized API management platform with monitoring, analytics, and security features.",
-      type: "SaaS Platform",
-      tech: ["Next.js", "PostgreSQL", "Docker"],
-      link: "#",
-      github: "#",
-    },
+    // {
+    //   title: "Architecture Planner",
+    //   description: "Visual system design tool for software architects to plan and document complex systems.",
+    //   type: "Desktop App",
+    //   tech: ["Electron", "TypeScript", "D3.js"],
+    //   link: "#",
+    //   github: "#",
+    // },
+    // {
+    //   title: "API Gateway Manager",
+    //   description: "Centralized API management platform with monitoring, analytics, and security features.",
+    //   type: "SaaS Platform",
+    //   tech: ["Next.js", "PostgreSQL", "Docker"],
+    //   link: "#",
+    //   github: "#",
+    // },
   ]
 
   return (
@@ -43,12 +43,15 @@ export function Apps() {
                   <span className="text-sm text-accent font-medium">{app.type}</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Button variant="ghost" size="sm" className="p-2">
+                  {/* <Button variant="ghost" size="sm" className="p-2">
                     <Github className="h-4 w-4" />
-                  </Button>
-                  <Button variant="ghost" size="sm" className="p-2">
+                  </Button> */}
+                  {/* <Button variant="ghost" size="sm" className="p-2" onClick={() => {window.open(app.link, '_blank', 'noopener,noreferrer');}}>
                     <ExternalLink className="h-4 w-4" />
-                  </Button>
+                  </Button> */}
+                  <a href={app.link} target="_blank" rel="noreferrer" className="flex items-center gap-2">
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
                 </div>
               </div>
 
