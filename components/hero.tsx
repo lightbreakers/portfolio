@@ -7,7 +7,7 @@ export function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-border">
-            <img src="/software-architect-headshot.png" alt="Profile photo" className="w-full h-full object-cover" />
+            <img src="/portfolio/software-architect-headshot.png" alt="Profile photo" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-4xl font-bold text-foreground mb-6">Builder and architect.</h1>
           <div className="space-y-4 text-muted-foreground leading-relaxed max-w-2xl">
