@@ -7,9 +7,10 @@ export function Apps() {
       title: "Biztool for Small Businesses",
       description: "Generate professional quotations, manage customers, and grow your business with our comprehensive suite of tools.",
       type: "Web App",
-      tech: ["Next.js", "Supabase", "AI/ML"],
+      tech: ["Next.js", "Supabase"],
       link: "https://www.harshparashar.cloud/biztool",
       github: "#",
+      result:"Reduced customer onboarding time by 40%, Increased business lead conversions by 30%"
     },
     // {
     //   title: "Architecture Planner",
@@ -64,6 +65,8 @@ export function Apps() {
                   </span>
                 ))}
               </div>
+              <br />
+              <p className="text-info-foreground mb-4 leading-relaxed">{app.result}</p>
             </div>
           ))}
         </div>

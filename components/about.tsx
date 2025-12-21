@@ -1,18 +1,18 @@
 export function About() {
   return (
-    <section id="about" className="py-20 px-6">
+    <section id="about" className="py-15 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <h2 className="text-2xl font-semibold text-foreground mb-6">About</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 10 years of experience in building solutions, I specialize in designing and building
-                scalable systems that power modern applications.
-              </p>
-              <p>
-                I believe in the power of clean architecture, thoughtful design patterns, and continuous learning. When
-                I'm not architecting systems, you'll find me contributing to open source projects.
+                I’m a technologist with <b>10+ years of experience</b> designing scalable tech ecosystems and leading engineering teams that ship world-class software.
+
+                I believe in <b>clean architecture</b>, thoughtful design patterns, and enabling teams to deliver robust applications that stand the test of time.
+
+                Over the years, I’ve worked with global organisations and startups to solve tough technical challenges — from microservices and AI integration to real-time systems.
+
               </p>
             </div>
           </div>
