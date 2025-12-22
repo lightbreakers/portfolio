@@ -10,14 +10,14 @@ export function Footer() {
             <a href="#apps" className="text-sm text-muted-foreground hover:text-foreground">
               Apps
             </a>
-            <a href="#blog" className="text-sm text-muted-foreground hover:text-foreground">
+            {/* <a href="#blog" className="text-sm text-muted-foreground hover:text-foreground">
               Posts
-            </a>
+            </a> */}
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">
               Contact
             </a>
           </div>
-          <p className="text-sm text-muted-foreground">© 2025 Your Name. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Harsh parashar. All rights reserved.</p>
         </div>
       </div>
     </footer>

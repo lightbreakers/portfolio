@@ -22,10 +22,14 @@ export function Contact() {
           <div>
             <h2 className="text-2xl font-semibold text-foreground mb-6">Work</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                I'm currently available for consulting projects, technical advisory roles, and interesting full-time
-                opportunities in software architecture.
-              </p>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2 text-gray-800">Available for:</h3>
+                  <ul className="list-disc list-inside space-y-1 text-gray-700">
+                    <li>Building Saas for small businesses</li>
+                    <li>Building online presences</li>
+                    <li>Automation pipelines</li>
+                  </ul>
+                </div>
               <p>
                 <a href="mailto:hello@example.com" className="text-accent hover:underline">
                   Get in touch →

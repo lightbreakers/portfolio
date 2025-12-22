@@ -41,7 +41,7 @@ export function Apps() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="text-lg font-medium text-foreground mb-2">{app.title}</h3>
-                  <span className="text-sm text-accent font-medium">{app.type}</span>
+                  <span className="bg-pink-500 text-sm text-white text-foreground font-medium px-2 py-1 rounded">{app.type}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   {/* <Button variant="ghost" size="sm" className="p-2">

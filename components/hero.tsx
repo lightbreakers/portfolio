@@ -16,11 +16,13 @@ export function Hero() {
               I help engineering teams build <b>scalable, high-performance platforms</b> and create software products that solve real-world problems.
             </p>
             <p>
+              <b>
               I'm building{" "}
-              <a href="/biztool" className="text-bold hover:underline">
+              <a href="/biztool" className="text-bold hover:underline text-color-warning">
                 Biztools
               </a>{" "}
               —  a tool that helps streamline small busniess.
+              </b>
             </p>
           </div>
         </div>
