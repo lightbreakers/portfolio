@@ -11,8 +11,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Software Architect Portfolio",
-  description: "Portfolio of a software architect building innovative applications",
+  title: "Harsh Parashar",
+  description: "Building efficient and scalable software architectures that drive business success.",
   generator: "v0.app",
 }
 
